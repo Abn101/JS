@@ -1,0 +1,13 @@
+console.log("SIMPLE-CALCULATOR");
+let num1 = 10;
+let num2 = 45;
+let sum = num1+num2;
+let difference = num1-num2;
+let Quotient= num1/num2;
+let Remainder = num1%num2;
+let Product = num1*num2;
+console.log("Sum of Num1 + Num2 =",sum);
+console.log("Difference of a Num1 - Num2 =",difference);
+console.log("Quotient of division is",Quotient);
+console.log("Remainder of division",Remainder);
+console.log("Product is",Product);
