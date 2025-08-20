@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6a85b6, #7f7fd5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* stack heading and form */
+  height: 100vh;
+}
+
+#appName {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+#formName {
+  color: #f0f0f0;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  width: 320px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: #7f7fd5;
+  box-shadow: 0 0 4px rgba(127, 127, 213, 0.6);
+}
+
+button {
+  width: 100%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  background: #7f7fd5;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #6a85b6;
+}
+
+span {
+  color: red;
+  font-size: 0.8rem;
+  display: block;
+  margin-top: -0.5rem;
+  margin-bottom: 0.8rem;
+}
